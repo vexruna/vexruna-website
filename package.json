@@ -1,0 +1,26 @@
+{
+  "name": "vexruna-website",
+  "version": "0.0.1",
+  "description": "Official Vexruna Website",
+  "homepage": "https://github.com/vexruna/vexruna-website#readme",
+  "bugs": {
+    "url": "https://github.com/vexruna/vexruna-website/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vexruna/vexruna-website.git"
+  },
+  "license": "ISC",
+  "author": "Vexruna",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.4"
+  }
+}
