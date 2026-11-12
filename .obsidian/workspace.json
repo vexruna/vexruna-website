@@ -190,14 +190,19 @@
   },
   "active": "045dc450c2b402d4",
   "lastOpenFiles": [
-    "tsconfig.json",
     "sketch.png",
+    "public/favicon.svg",
+    "public/icons.svg",
+    "src/assets/hero.png",
+    "src/assets/vite.svg",
+    "src/assets/react.svg",
+    "readme.md",
+    "tsconfig.json",
     "public_html/img",
     "public_html/index.html~",
     "public_html/css/style.css~",
     "public_html/js/main.js",
     "obsidian/Overview.md",
-    "readme.md",
     "obsidian"
   ]
 }

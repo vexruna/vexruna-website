@@ -2,7 +2,7 @@
 ## Overview
 This is my personal portfolio website.
 
-The site is built on top of ``node.js``, ``reactjs``, ``tailwindcss``, ``vite`` and ``three.js``.
+The site is built using ``node.js``, ``npm``, ``react``, ``typescript``, ``vite`` and ``three.js``.
 ## Idea
 The site will be using 3D models aligned to center-right side of the viewport.
 
