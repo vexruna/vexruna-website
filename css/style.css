@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=New+Rocker&display=swap');
+
 body {
 	margin: 0;
 	padding: 0;
@@ -8,49 +11,112 @@ body {
 	justify-content: space-between;
 	gap: 69px;
 	font-family: "Martian Mono", monospace;
+	opacity: 0;
+	animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+	to {
+		opacity: 1;
+	}
 }
 
 nav {
 	position: sticky;
 	left: 0;
 	top: 0;
+	padding: 0;
+	margin: 0;
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
-	width: 100%;
 	flex: 1 0 200px;
-	gap: 16px;
 }
 
-a {
-	width: 69%;
-	text-align: center;
-	text-decoration: none;
-	font-size: 69px;
+#nav-level1 {
+	display: flex;
+	flex-flow: column nowrap;
+	gap: 34px;
+	opacity: 0;
+	animation: fadeIn 1s forwards;
+}
+
+#nav-level1>button {
+	font-size: 48px;
+}
+
+#nav-level2 {
+	display: none;
+	flex-flow: column nowrap;
+	gap: 16px;
+	opacity: 0;
+	animation: fadeIn 1s forwards;
+}
+
+#nav-level2>button {
+	font-size: 36px;
+}
+
+h1,
+h2,
+button {
+	font-family: "New Rocker", system-ui;
+}
+
+button {
+	background-color: black;
 	color: white;
+	border: 0;
+	user-select: none;
+	cursor: pointer;
+}
+
+button:hover {
+	color: red;
+}
+
+#back {
+	align-self: flex-start;
+	height: 64px;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+}
+
+img {
+	height: 64px;
+	width: 64px;
 	margin: 0;
 	padding: 0;
 }
 
-a:hover {
-	color: #ff2002;
+#back:hover {
+	background-color: red;
 }
 
 main {
 	display: flex;
 	flex-flow: column nowrap;
 	gap: 100px;
-	flex: 1 0 400px;
+	flex: 1 0 600px;
 }
 
 section {
 	display: flex;
-	height: 100vh;
+	height: 100%;
 	flex-flow: column nowrap;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
+	font-size: 34px;
+	opacity: 0;
+	animation: fadeIn 1s forwards;
 }
 
 #model {
@@ -61,5 +127,6 @@ section {
 	flex-flow: column nowrap;
 	align-items: center;
 	justify-content: center;
-	flex: 1 0 500px;
+	opacity: 0;
+	animation: fadeIn 1s forwards;
 }

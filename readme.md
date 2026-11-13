@@ -47,6 +47,6 @@ In the future, for my discography tab the model will be a functioning oscillosco
 My development strategy can be summarized like this: 
 1. ~~Make a sketch of the layout in Krita.~~ 
 	![Sketch](sketch.png)
-2. Build the site using html/css/js knowledge I already have. 
-3. Learn a piece of the stack and rewrite the site using it.
-4. Repeat for every other piece of the stack until the stack is complete.
+:2. ~~Build the site using html/css/js knowledge I already have.~~ 
+2. Learn a piece of the stack and rewrite the site using it.
+3. Repeat for every other piece of the stack until the stack is complete.

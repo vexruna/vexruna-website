@@ -5,75 +5,68 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Vexruna</title>
 		<link href="css/style.css" rel="stylesheet">
-		<style>
-			@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
-		</style>
 	</head>
 	<body>
 		<nav>
-			<a href="#home">Home</a>
-			<a href="#projects">Projects</a>
-			<a href="#about">About</a>
+			<div id="nav-level1">
+				<button type="button">Home</button>
+				<button type="button">Projects</button>
+				<button type="button">About</button>
+			</div>
+			<div id="nav-level2">
+				<button type="button"><img src="/assets/back.svg" id="back" alt="Back"></button>
+				<button type="button" id="bpj1">Hexmoon</button>
+				<button type="button" id="bpj2">This website</button>
+			</div>
 		</nav>
 		<main>
 			<section id="home">
-				<article>
-					<h1>Home</h1>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-						nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-						officia deserunt mollit anim id est laborum.
-					</p>
-				</article>
+				<h1>Home</h1>
+				<p>
+					Restoring the natural order of universe. One horror at a time.
+				</p>
 			</section>
-			<section id="projects">
-				<h1>Projects</h1>
-				<article>
-					<h2>Title</h2>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-						nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-						officia deserunt mollit anim id est laborum.
-					</p>
-				</article>
-				<article>
-					<h2>Title</h2>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-						nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-						officia deserunt mollit anim id est laborum.
-					</p>
-				</article>
+			<section id="pj1">
+				<div class="title">
+					<img src="/assets/hexmoon.svg" alt="Hexmoon" id="hexmoon-icon">
+					<h2>Hexmoon</h2>
+				</div>
+				<p>
+					Game development project with a theme around cosmic horror.
+					Games made for a niche, adult audience with ambitious goals.
+				</p>
+				<div class="social-links">
+					<a href="https://github.com/hexmoon-dev"><img src="/assets/github.svg" alt="Github"></a>
+					<a href="https://x.com/hexmoon_dev"><img src="/assets/twitter.svg" alt="Twitter"></a>
+					<a href="https://www.youtube.com/@hexmoon-dev"><img src="/assets/youtube.svg" alt="YouTube"></a>
+				</div>
+			</section>
+			<section id="pj2">
+				<h2>This website</h2>
+				<p>
+					Made possible with three.js
+				</p>
+				<div class="social-links">
+					<a href="https://github.com/vexruna/vexruna-website"><img src="/assets/github.svg" alt="GitHub"></a>
+				</div>
 			</section>
 			<section id="about">
-				<article>
-					<h1>About</h1>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-						nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-						reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-						Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-						officia deserunt mollit anim id est laborum.
-					</p>
-				</article>
+				<h1>About</h1>
+				<p>
+					I'm Vexruna and this is my personal website.
+					<br>
+					You can find my socials below.
+				</p>
+				<div class="social-links">
+					<a href="https://github.com/vexruna"><img src="/assets/github.svg" alt="GitHub"></a>
+					<a href="https://twitter.com/vexruna"><img src="/assets/twitter.svg" alt="Twitter"></a>
+					<a href="https://www.youtube.com/@vexruna"><img src="/assets/youtube.svg" alt="YouTube"></a>
+				</div>
 			</section>
 		</main>
 		<div id="model">
 		</div>
 		<script type="module" src="src/main.ts"></script>
+		<script type="module" src="src/navigation.ts"></script>
 	</body>
 </html>
