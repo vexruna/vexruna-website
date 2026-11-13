@@ -1,5 +1,6 @@
 {
   "enabledCssSnippets": [
     "noctalia"
-  ]
+  ],
+  "showRibbon": true
 }

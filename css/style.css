@@ -1,0 +1,65 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	gap: 69px;
+	font-family: "Martian Mono", monospace;
+}
+
+nav {
+	position: sticky;
+	left: 0;
+	top: 0;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
+	flex: 1 0 200px;
+	gap: 16px;
+}
+
+a {
+	width: 69%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 69px;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+a:hover {
+	color: #ff2002;
+}
+
+main {
+	display: flex;
+	flex-flow: column nowrap;
+	gap: 100px;
+	flex: 1 0 400px;
+}
+
+section {
+	display: flex;
+	height: 100vh;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#model {
+	position: sticky;
+	display: flex;
+	top: 0;
+	height: 100vh;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+	flex: 1 0 500px;
+}
