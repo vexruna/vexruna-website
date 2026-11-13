@@ -42,6 +42,7 @@ undefined,
 
 function animate() {
   requestAnimationFrame(animate);
+
   if (suzanne) {
     suzanne.rotation.y += 0.005;
   }
